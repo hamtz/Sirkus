@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "243301485311",
+    "firebase_url": "https://sirkus-82b25-default-rtdb.firebaseio.com",
+    "project_id": "sirkus-82b25",
+    "storage_bucket": "sirkus-82b25.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:243301485311:android:9b0ffa1cc4f20ff936daca",
+        "android_client_info": {
+          "package_name": "com.example.sirkus"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_vC1EmP6D7PuIRjbjZEo5bXKwDQTEv3g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
