@@ -15,6 +15,7 @@
         android:layout_margin="48dp"
         android:textSize="36sp"
         android:textStyle="bold"
+        android:textColor="@color/black"
         android:text="SIRKUS" />
 
     <RelativeLayout
@@ -35,15 +36,18 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="4dp"
-                android:textSize="24sp"
+                android:textSize="20sp"
                 android:textStyle="bold"
+                android:textColor="@color/black"
                 android:text="SENSOR :" />
             <TextView
+                android:id="@+id/tx_deteksi"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="4dp"
-                android:textSize="24sp"
+                android:textSize="20sp"
                 android:textStyle="bold"
+                android:textColor="@color/black"
                 android:text="ADA GERAKAN" />
 
 
@@ -71,14 +75,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
-                android:textStyle="bold"
+                android:textColor="@color/black"
                 android:text="SENSOR : " />
             <TextView
                 android:id="@+id/tx_nilai_sensor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
-                android:textStyle="bold"
+                android:textColor="@color/black"
                 android:text="-" />
 
 
@@ -92,13 +96,13 @@
             android:gravity="center"
             android:orientation="horizontal">
             <Button
-                android:id="@+id/btn_sensor_off"
+                android:id="@+id/btn_frekuensi_off"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="48dp"
                 android:text="OFF"/>
             <Button
-                android:id="@+id/btn_sensor_on"
+                android:id="@+id/btn_frekuensi_on"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="ON"/>
@@ -121,13 +125,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
-                android:textStyle="bold"
+                android:textColor="@color/black"
                 android:text="FREKUENSI : " />
             <TextView
                 android:id="@+id/tx_nilai_frekuensi"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textStyle="bold"
+                android:textColor="@color/black"
                 android:textSize="20sp"
                 android:text="-" />
         </LinearLayout>
@@ -140,13 +144,13 @@
             android:gravity="center"
             android:orientation="horizontal">
             <Button
-                android:id="@+id/btn_frekuensi_off"
+                android:id="@+id/btn_sensor_off"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="48dp"
                 android:text="OFF"/>
             <Button
-                android:id="@+id/btn_frekuensi_on"
+                android:id="@+id/btn_sensor_on"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="ON"/>
